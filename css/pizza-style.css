@@ -1,0 +1,272 @@
+.container {
+	opacity: 0.95;
+}
+
+body {
+	background-color: #fff;
+	background-image: url('img/pizza.png') no-repeat center center fixed;
+}
+
+#menuBG {
+	margin: 0% auto;
+	width: 650px;
+	border-radius: 25px;
+	/* border: 3px solid #080054; */
+	padding: 1px 0px;
+	/* background-color: #f29a80; */
+	/* background-color: #2b65c4; */
+	/* box-shadow: 0 0 0 3px rgba(255,255,255, .8); */
+	opacity: 1;
+}
+
+#menuBG>h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	color: #00f;
+	text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+	margin: -2% 0 0 auto;
+	text-align: center;
+}
+
+#frmMenu {
+	margin: 0% auto;
+	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+	border-radius: 25px;
+}
+
+.menu { 
+	flex: 1 150px;
+	min-width: 0;
+	border: 2px solid #080054;
+	box-shadow: 0 0 0 3px rgba(255,255,255, .7);
+	padding: 0 0 10px 0;
+}
+
+.menu:nth-child(even) {
+	background-color: rgba(244, 245, 247, 0.9);
+	border-radius: 25px;
+}
+
+.menu:nth-child(odd) {
+	background-color: rgba(234, 235, 237, 0.9);
+	border-radius: 25px;
+}
+
+.menu>H3 {
+	color: #fff;
+	padding: 0 0 0 60px;
+	margin: 0 auto;
+	background-color: rgba(42, 76, 132, .8);
+	border-radius: 25px 25px 0 0;
+	text-shadow: 1.5px 1.5px 5px #00f, 1px 1px 5px #000;
+}
+
+.button {
+	cursor: pointer;
+	color: #fff;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	border-radius: .5em;
+	margin: 1% auto;
+	padding: .1px 0 .1px 0px;
+    font: 18px sans-serif;
+	background-color: rgba(42, 76, 132, .95); /*#6486bc;*/
+	box-shadow: 0 0 0 2px rgba(255,255,255, .8);
+	transition-property: transform background, box-shadow, color;
+	transition-duration: .3s, .5s, .2s;
+	transition-timing-function: eas-in-out;
+}
+
+.button>p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.button:hover {
+	font: 18px sans-serif;
+	font-weight: bold;
+	color: #000;
+	background-color: rgba(255, 255, 255, .6);
+	box-shadow: 0 0 0 2px #080054;
+}
+
+.controls {
+	display: flex;
+    flex-direction: columns;
+    justify-content: space-between;
+	margin: 0 auto;
+	width: 550px;
+}
+
+.controls>.button {
+	flex: 1 150px;
+}
+
+#cart {
+	opacity: 0;
+	margin: 15px auto;
+	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+	background-color: rgba(244, 245, 247, 0.9);
+	border: 2px solid #080054;
+	box-shadow: 0 0 0 3px rgba(255,255,255, .8);
+	border-radius: 25px;
+}
+
+#title1 {
+	color: #fff;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: rgba(42, 76, 132, .8);
+	border-radius: 25px 0 0 0;
+	text-shadow: 1.5px 1.5px 5px #00f, 1px 1px 5px #000;
+}
+
+#title2 {
+	color: #fff;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: rgba(42, 76, 132, .8);
+	border-radius: 0 25px 0 0;
+	text-shadow: 1.5px 1.5px 5px #00f, 1px 1px 5px #000;
+}
+
+#showText1 {
+	font-size: 13px;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#showText2 {
+	font-size: 13px;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#totalPrice1 {
+	flex: 1 250px;
+	padding: 0 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#totalPrice2 {
+	flex: 1 250px;
+	font-weight: bold;
+	padding: 20px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+/*pizza tutorial css*/
+
+.body_basic {
+	top: 0%;
+	margin: 0 auto;
+	width: 100%;
+	background-color: rgb(242, 239, 237);
+}
+
+#menuBG_basic {
+	top: 0%;
+	margin: 0 auto;
+	width: 90%;
+	background-color: rgb(242, 239, 237);
+}
+
+#menuBG_basic>h1 {
+	color: darkblue;
+	font: 60px Merriweather;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#explanation {
+	width: 60%;
+	padding: 2%;
+	margin: 0 auto;
+	background-color: rgb(255, 246, 242);
+	border: 1px solid rgb(211, 104, 59);
+	box-shadow: -1px 5px 15px 1px rgba(211, 104, 59, .3), 3px 5px 10px 2px rgba(0, 0, 0, .4);
+}
+
+#explanation>p {
+	line-height: 1.5em;
+	margin: 2% 0 0 0;
+}
+
+#frmMenu_basic,
+#cart_basic {
+	width: 400px; 
+	margin: 0 auto;
+}
+
+xmp {
+	font-size: 10.5px;
+	padding: 2%;
+	color: darkgreen;
+	background-color: rgb(239, 231, 227); /*#fcf3ef*/
+	border: 1px dashed #f98959;
+	border-radius: 3% 3%;
+}
+
+#totalPrice { 
+	width: 40%;
+	margin: 40px 0 0 0;
+	float: left;
+}
+
+.menu_basic,
+#showText { 
+	width: 40%;
+	margin: 20px auto;
+	float: left;
+}
+
+.code-red {
+	padding: .2.5%;
+	border: 1px solid #303030;
+	color: darkred;
+}
+
+.code-blue {
+	padding: .2.5%;
+	border: 1px solid #303030;
+	color: darkblue;
+}
+
+.code-black {
+	padding: .2.5%;
+	border: 1px solid #303030;
+	color: #000;
+}
+
+.code-green {
+	padding: .2.5%;
+	border: 1px solid #303030;
+	color: forrestgreen;
+}
+
+.code-yellow{
+	padding: .2.5%;
+	border: 1px solid #303030;
+	color: gold;
+}

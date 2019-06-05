@@ -4,7 +4,7 @@
 
 body {
 	background-color: #fff;
-	background-image: url('img/pizza.png') no-repeat center center fixed;
+	background: url('pizza2_lrg.jpg') no-repeat center center fixed;
 }
 
 #menuBG {
@@ -124,6 +124,7 @@ body {
 }
 
 #title1 {
+	float: left;
 	color: #fff;
 	flex: 1 250px;
 	height: 50px;
@@ -135,6 +136,7 @@ body {
 }
 
 #title2 {
+	float:right;
 	color: #fff;
 	flex: 1 250px;
 	height: 50px;
@@ -146,6 +148,7 @@ body {
 }
 
 #showText1 {
+	float: left;
 	font-size: 13px;
 	flex: 1 250px;
 	padding: 1px 0 10px 10px;
@@ -154,6 +157,7 @@ body {
 }
 
 #showText2 {
+	float:right;
 	font-size: 13px;
 	flex: 1 250px;
 	padding: 1px 0 10px 10px;
@@ -162,6 +166,7 @@ body {
 }
 
 #totalPrice1 {
+	float: left;
 	flex: 1 250px;
 	padding: 0 0 10px 10px;
 	width: 250px;
@@ -169,6 +174,7 @@ body {
 }
 
 #totalPrice2 {
+	float: right;
 	flex: 1 250px;
 	font-weight: bold;
 	padding: 20px 0 10px 10px;
